@@ -109,7 +109,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char  
   title: "Ilyes Hasnaou's Portfolio Website",
-  description: "This is a portfolio website inspired by Hashir Shoaeb's template.",
+  description: "The personal website/portfolio of Ilyes Hasnaou, made using Nextjs and Bootstrap5, inspired by Hashir Shoaib.",
   image: profile.src,
 }
 
