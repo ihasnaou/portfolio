@@ -30,6 +30,7 @@ jobs:
     - name: Set Environment Variables
       run: echo "BASE_PATH=/${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
     - name: Test Environment Variables
+      shell: bash
       run: echo ${{ env.BASE_PATH }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
