@@ -25,7 +25,7 @@ export const navigation = {
   ],
 }
 export const intro = {
-  title: "Hey there, I'm Ilyes",
+  title: "Ilyes Hasnaou",
   description: "Backend-focused Software Engineer specializing in distributed systems, concurrent processing, and production-grade applications.",
   image: profile.src,
   buttons: [
@@ -45,10 +45,10 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "Software Engineering graduate from Carleton University (2024), transitioning to a Master of Engineering in Software at the University of Waterloo (Co-op).",
+    "Software Engineering graduate from Carleton University (2024), transitioning to a Master of Engineering in Electrical and Computer Engineering at the University of Waterloo (Co-op).",
     "Experience building and deploying backend systems with a focus on reactive architectures, asynchronous processing, and fault-tolerant design using Java, Play Framework, and Apache Pekko.",
     "Developed production-facing applications for small businesses, delivering booking and inventory systems with cloud deployment, CI/CD pipelines, and real-world operational constraints.",
-    "Technical stack includes Java, Python, Go, Spring Boot, REST APIs, PostgreSQL, AWS, Azure, and Linux. Additional exposure to machine learning systems using PyTorch and OpenCV.",
+    "Technical stack: Java, Python, Go, Spring Boot, REST APIs, PostgreSQL, AWS, Azure, and Linux. Additional exposure to machine learning systems using PyTorch and OpenCV.",
   ],
 }
 
@@ -62,6 +62,20 @@ export const projects = {
     {
       icon: faGithub,
       link: "https://github.com/S-15-77/NotiLytics",
+    },
+  ]
+},
+    {
+  title: "Freelance Systems for Small Businesses",
+  description: "Production web systems for booking and inventory management with real-world deployment and operational usage in the Ottawa/Kanata area",
+},
+    {
+  title: "Distributed Elevator Control System",
+  description: "A distributed elevator simulation built in Java using UDP communication, featuring a scheduler-driven architecture, state machines, real-time GUI visualization, and fault-tolerant handling of transient and hard failures.",
+  icons: [
+    {
+      icon: faGithub,
+      link: "https://github.com/ConnorMarcus/SYSC3303Project",
     },
   ]
 },
@@ -85,36 +99,6 @@ export const projects = {
     },
   ]
 },
-    {
-  title: "Distributed Elevator Control System",
-  description: "A distributed elevator simulation built in Java using UDP communication, featuring a scheduler-driven architecture, state machines, real-time GUI visualization, and fault-tolerant handling of transient and hard failures.",
-  icons: [
-    {
-      icon: faGithub,
-      link: "https://github.com/ConnorMarcus/SYSC3303Project",
-    },
-  ]
-},
-    {
-      title: "Fish Recognition",
-      description: "A machine learning tool trained to identify species of fish given an image using OpenCV and Pytorch.",
-      icons: [
-        {
-          icon: faGithub,
-          link: "https://github.com/seanchung2001/Fish-Recognition",
-        },
-      ]
-    },
-    {
-      title: "MELBA - 4th year capstone project",
-      description: "An automated tool support for category-partition testing - added JML support.",
-      icons: [
-        {
-          icon: faGithub,
-          link: "https://github.com/yvanlabiche/Melba",
-        },
-      ]
-    },
     {
       title: "Amazin Library",
       description: "A CI/CD web-based online book store made using Java Spring Boot, AJAX, and deployment tools like Microsoft Azure and AWS Codestar (now deprecated!).",
