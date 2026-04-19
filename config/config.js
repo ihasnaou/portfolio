@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
   title: "Hey there, I'm Ilyes",
-  description: "A Software Engineer graduate from Carleton University.",
+  description: "Backend-focused Software Engineer specializing in distributed systems, concurrent processing, and production-grade applications.",
   image: profile.src,
   buttons: [
     {
@@ -45,16 +45,56 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from Carleton University in Spring 2024 with a B.Eng in Software Engineering. I have previously worked at Bell Canada, as a QA analyst intern on the FibeTV app.",
-    "One of my favorite things about being in the tech industry is that it is an ever-evolving challenging environment, which suits me as I always thrive to hone my skills. I can be sure that I will always put in my all when working on a project.",
-    "I have had prior experience in: Java, Python, C, SQL, AWS, Azure, PyTorch, OpenCV, Maven, TestRail, Jira, CI/CD, Agile/Scrum methodologies, amongst others things. I am also fluent in English and French, and can use Arabic and Spanish at a professional level. For more details, feel free to check out my resume!",
-    "On a more personal note, I also enjoy: reading, music, soccer and basketball. Don't hesitate to reach out to discuss any of these!",
+    "Software Engineering graduate from Carleton University (2024), transitioning to a Master of Engineering in Software at the University of Waterloo (Co-op).",
+    "Experience building and deploying backend systems with a focus on reactive architectures, asynchronous processing, and fault-tolerant design using Java, Play Framework, and Apache Pekko.",
+    "Developed production-facing applications for small businesses, delivering booking and inventory systems with cloud deployment, CI/CD pipelines, and real-world operational constraints.",
+    "Technical stack includes Java, Python, Go, Spring Boot, REST APIs, PostgreSQL, AWS, Azure, and Linux. Additional exposure to machine learning systems using PyTorch and OpenCV.",
   ],
 }
 
 export const projects = {
   title: "Projects",
   cards: [
+    {
+  title: "NotiLytics",
+  description: "A reactive news analytics platform built with Play Framework and Apache Pekko, featuring real-time streaming, non-blocking data ingestion, and fault-tolerant actor-based architecture.",
+  icons: [
+    {
+      icon: faGithub,
+      link: "https://github.com/S-15-77/NotiLytics",
+    },
+  ]
+},
+{
+  title: "Customer Segmentation & Prediction System",
+  description: "An end-to-end machine learning pipeline combining K-Means clustering and supervised models to generate actionable customer insights and high-performance predictions.",
+  icons: [
+    {
+      icon: faGithub,
+      link: "https://github.com/ihasnaou/Customer-Segmentation-Prediction-System",
+    },
+  ]
+},
+{
+  title: "K-Means Optimization & OPKM Research",
+  description: "A research-focused implementation of K-Means and OPKM clustering algorithms, including custom initialization strategies and performance benchmarking against standard approaches.",
+  icons: [
+    {
+      icon: faGithub,
+      link: "https://github.com/ihasnaou/K-Means-OPKM-Model-Training",
+    },
+  ]
+},
+    {
+  title: "Distributed Elevator Control System",
+  description: "A distributed elevator simulation built in Java using UDP communication, featuring a scheduler-driven architecture, state machines, real-time GUI visualization, and fault-tolerant handling of transient and hard failures.",
+  icons: [
+    {
+      icon: faGithub,
+      link: "https://github.com/ConnorMarcus/SYSC3303Project",
+    },
+  ]
+},
     {
       title: "Fish Recognition",
       description: "A machine learning tool trained to identify species of fish given an image using OpenCV and Pytorch.",
