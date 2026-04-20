@@ -46,8 +46,8 @@ export const about = {
   title: "Who I am",
   description: [
     "Software Engineering graduate from Carleton University (2024), transitioning to a Master of Engineering in Electrical and Computer Engineering at the University of Waterloo (Co-op).",
-    "Experience building and deploying backend systems with a focus on reactive architectures, asynchronous processing, and fault-tolerant design using Java, Play Framework, and Apache Pekko.",
-    "Developed production-facing applications for small businesses, delivering booking and inventory systems with cloud deployment, CI/CD pipelines, and real-world operational constraints.",
+    "Industry experience across Bell Canada, Labeeb IoT, and freelance work, building and supporting production systems with real-world constraints, fault handling, and deployment ownership.",
+    "Key projects include reactive and distributed systems (Play, Apache Pekko, UDP), real-time pipelines, and end-to-end applications with CI/CD and cloud infrastructure.",
     "Technical stack: Java, Python, Go, Spring Boot, REST APIs, PostgreSQL, AWS, Azure, and Linux. Additional exposure to machine learning systems using PyTorch and OpenCV.",
   ],
 }
